@@ -1,24 +1,24 @@
-<rss version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="https://www.itunes.com/">
   <channel>
-    <title>Home | 3rd Floor Herzberg</title>
-    <description>Home | 3rd Floor Herzberg</description>
+    <title>3rd Floor Herzberg</title>
     <link>https://omarflores.dev/3rdfloorherzberg</link>
-    <generator>https://rss.app</generator>
-    <lastBuildDate>Tue, 10 Mar 2020 18:16:44 GMT</lastBuildDate>
+    <description>A series of episodes about Computer Science.</description>
     <language>en</language>
-    <itunes:author>This American Life</itunes:author>
-    <itunes:category text="Science & Technology" />
-    <itunes:imagehref="https://omarflores.dev/3rdfloorherzberg/logo_svg.svg" />
+    <itunes:author>Omar Garcia Flores and Faris Mohamed</itunes:author>
+    <itunes:category text="Science and Technology" />
+    <itunes:imagehref href="https://omarflores.dev/3rdfloorherzberg/logo_svg.svg" />
     <itunes:owner>
-    <itunes:email>omar.garciaf247@gmail.com</itunes:email>
+      <itunes:email>omar.garciaf247@gmail.com</itunes:email>
     </itunes:owner>
     <item>
-      <title>
-        1. Introduction Omar Garcia Flores - Faris Mohamed The reasoning behind the podcast
-      </title>
+      <title>1. Introduction Omar Garcia Flores - Faris Mohamed The reasoning behind the podcast</title>
+      <description>A reasoning of the podcast</description>
       <link>https://omarflores.dev/undefined</link>
       <guid isPermaLink="false">33504f43c0fe527bb4906f7ad85acbef</guid>
       <pubDate>Tue, 10 Mar 2020 18:15:50 GMT</pubDate>
+      <itunes:order>9</itunes:order>
+      <itunes:duration>2700</itunes:duration>
     </item>
   </channel>
 </rss>
