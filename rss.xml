@@ -6,9 +6,12 @@
     <generator>https://rss.app</generator>
     <lastBuildDate>Tue, 10 Mar 2020 18:16:44 GMT</lastBuildDate>
     <language>en</language>
-    <author>Omar Garcia Flores and Faris Mohamed</author>
-    <contact>omar.garciaf247@gmail.com</contact>
-    <cover><link>https://omarflores.dev/3rdfloorherzberg/logo_svg.svg</link></cover>
+    <itunes:author>This American Life</itunes:author>
+    <itunes:category text="Science & Technology" />
+    <itunes:imagehref="https://omarflores.dev/3rdfloorherzberg/logo_svg.svg" />
+    <itunes:owner>
+    <itunes:email>omar.garciaf247@gmail.com</itunes:email>
+    </itunes:owner>
     <item>
       <title>
         1. Introduction Omar Garcia Flores - Faris Mohamed The reasoning behind the podcast

@@ -30,6 +30,7 @@ body {
 .description {
   font-weight: 200;
   font-size: 2rem;
+  margin: 0;
 }
 
 .logo {
@@ -75,6 +76,7 @@ body {
 .hosts {
   font-size: 1rem;
   font-weight: 300;
+  margin-top: 0.5rem;
 }
 
 .spotify-link {
