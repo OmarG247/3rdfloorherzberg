@@ -5,15 +5,17 @@ html {
   height: 100vh;
   width: 100%;
   font-family: 'Work Sans', sans-serif;
+  color: white;
 }
 
 body {
-  height: 100%;
   margin: 0;
+  padding: 2rem;
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .content {
@@ -26,7 +28,6 @@ body {
 }
 
 .description {
-  color: white;
   font-weight: 200;
   font-size: 2rem;
 }
@@ -50,9 +51,30 @@ body {
 }
 
 .open-in-spotify {
-  color: white;
   font-weight: 300;
   font-size: 1rem;
+}
+
+.post-header {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-bottom: 0.5rem;
+}
+
+.post-description {
+  margin-top: 0.2rem;
+  font-weight: 200;
+}
+
+.post-members {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.hosts {
+  font-size: 1rem;
+  font-weight: 300;
 }
 
 .spotify-link {
