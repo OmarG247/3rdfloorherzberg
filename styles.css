@@ -16,6 +16,9 @@ body {
   align-content: center;
   justify-content: center;
   flex-direction: column;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .header {
@@ -40,27 +43,11 @@ body {
   margin-right: auto;
 }
 
-@media only screen and (max-width: 600px) {
-  .header {
-    width: 100%;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-content: center;
-    justify-content: center;
-  }
-
-  .logo {
-    width: 100%;
-  }
-}
-
 .listen {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   vertical-align: middle;
-  align-items: center;
+  align-items: flex-start;
   align-content: center;
   justify-content: center;
 }
@@ -98,10 +85,35 @@ body {
   margin-top: 0.5rem;
 }
 
-.spotify-link {
+.link {
   color: white;
 }
 
-.spotify-link:hover {
+.spotify:hover {
   color: #1ED760;
+}
+
+.soundcloud:hover {
+  color: #ff7700;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 100%;
+  }
 }
