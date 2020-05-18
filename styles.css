@@ -70,12 +70,12 @@ body {
 
 .post-description {
   margin-top: 0.2rem;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .post-members {
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 200;
   margin: 0;
 }
 
@@ -95,6 +95,10 @@ body {
 
 .soundcloud:hover {
   color: #ff7700;
+}
+
+.google-podcasts:hover {
+  color: #4285F4;
 }
 
 .icons {
