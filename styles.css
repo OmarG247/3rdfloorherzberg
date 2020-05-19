@@ -62,6 +62,10 @@ body {
   font-size: 1rem;
 }
 
+.post {
+  overflow: hidden;
+}
+
 .post-header {
   font-size: 2rem;
   font-weight: 200;
@@ -93,7 +97,15 @@ body {
   color: #1ED760;
 }
 
+.spotify.active {
+  color: #1ED760; 
+}
+
 .soundcloud:hover {
+  color: #ff7700;
+}
+
+.soundcloud.active {
   color: #ff7700;
 }
 
@@ -104,6 +116,18 @@ body {
 .icons {
   display: flex;
   flex-direction: row;
+}
+
+.hidden {
+  display: none;
+}
+
+.links-container {
+  margin-bottom: 1rem;
+}
+
+.links-container p {
+  display: inline;
 }
 
 @media only screen and (max-width: 600px) {

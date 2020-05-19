@@ -19,7 +19,7 @@
     <div class="header">
       <img class="logo" src="./assets/logo_svg.svg" />
       <h2 class="description">
-        Computer Science @ Carleton
+        A Computer Science podcast hosted by Carleton Students
       </h2>
       <p class="hosts">
         Co-hosted by Omar Flores & Faris Mohamed
@@ -62,14 +62,18 @@
           <p class="post-description">
             Duration - 3:44 minutes
           </p>
-          <p>
-            ▶️
-            <a class="link spotify"
-              href="https://open.spotify.com/episode/3Rzx4QsmcjuPWXDSH9MVZE?si=xIeMc101SuS4iuIOV9r-mw">Spotify</a> |
-            <a class="link soundcloud" href="https://soundcloud.com/3rdfloorhz/episode-1">SoundCloud</a>
-          </p>
+          <div class="links-container">
+            <p>
+              ▶️
+              <p id="spotify-button-01" class="link spotify active">Spotify</p>
+              |
+              <p id="soundcloud-button-01" class="link soundcloud">SoundCloud</p>
+            </p>
+          </div>
         </div>
-        <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+        <iframe id="spotify-play-01" class="embed"src="https://open.spotify.com/embed-podcast/episode/3Rzx4QsmcjuPWXDSH9MVZE" width="100%" height="232"
+          frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe id="soundcloud-play-01" class="embed hidden" width="100%" height="232" scrolling="no" frameborder="no" allow="autoplay"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/822189232&color=%23eed000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=false"></iframe>
       </div>
       <div class="post">
@@ -86,16 +90,22 @@
         <p class="post-description">
           Duration - 24:47 minutes
         </p>
-        <p>
-          ▶️
-          <a class="link spotify"
-            href="https://open.spotify.com/episode/2BvasARweDuzbrpR3pkuEW?si=P9wQWmiFSOiF8l6n4q7rNg">Spotify</a> |
-          <a class="link soundcloud" href="https://soundcloud.com/3rdfloorhz/episode-2">SoundCloud</a>
-        </p>
-        <iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay"
+        <div class="links-container">
+          <p>
+            ▶️
+            <p id="spotify-button-02" class="link spotify active">Spotify</p>
+            |
+            <p id="soundcloud-button-02" class="link soundcloud">SoundCloud</p>
+          </p>
+        </div>
+        <iframe id="spotify-play-02" class="embed" src="https://open.spotify.com/embed-podcast/episode/2BvasARweDuzbrpR3pkuEW" width="100%" height="232"
+          frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe id="soundcloud-play-02" class="embed hidden" width="100%" height="232" scrolling="no" frameborder="no" allow="autoplay"
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/822742774&color=%23eed000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=false"></iframe>
       </div>
     </div>
+
+    <script src="./js/app.js"></script>
   </body>
 
 </html>
