@@ -21,6 +21,10 @@ body {
   margin-left: auto;
 }
 
+a {
+  color: #E31936;
+}
+
 .header {
   width: 50%;
   padding: 2rem;
