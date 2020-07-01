@@ -97,23 +97,11 @@ a {
   color: white;
 }
 
-.spotify:hover {
+.spotify {
   color: #1ED760;
 }
 
-.spotify.active {
-  color: #1ED760; 
-}
-
-.soundcloud:hover {
-  color: #ff7700;
-}
-
-.soundcloud.active {
-  color: #ff7700;
-}
-
-.google-podcasts:hover {
+.google-podcasts {
   color: #4285F4;
 }
 
