@@ -22,7 +22,9 @@ body {
 }
 
 a {
-  color: #E31936;
+  text-decoration-color: #FFCB13;
+  color: #FFCB13;
+  font-weight: 400;
 }
 
 .header {
@@ -54,6 +56,15 @@ a {
   align-items: flex-start;
   align-content: center;
   justify-content: center;
+}
+
+.contact {
+  margin-top: 2rem;
+}
+
+.contact h4 {
+  font-weight: 400;
+  margin: 0;
 }
 
 .spotify-logo {
@@ -99,10 +110,12 @@ a {
 
 .spotify {
   color: #1ED760;
+  text-decoration-color: #1ED760
 }
 
 .google-podcasts {
   color: #4285F4;
+  text-decoration-color: #4285F4
 }
 
 .icons {
